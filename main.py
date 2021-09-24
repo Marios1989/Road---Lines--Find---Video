@@ -50,7 +50,7 @@ def process(image):
     return cropped_image
 
 
-# apply hough trabsform and print the lines
+# apply hough transform and print the lines
 
 def hough_transform(image):
     lines = cv2.HoughLinesP(image,
